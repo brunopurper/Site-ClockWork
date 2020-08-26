@@ -1,0 +1,12 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.header{
+	height: 350px;
+	width: auto;
+	max-width: auto;
+	
+	background-color: aquamarine;
+}
