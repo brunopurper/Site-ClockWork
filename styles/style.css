@@ -12,7 +12,8 @@
 	background-color: #862633;
 }
 
-#logoimg{
+.logo img{
 	width:560px;
 	display: flex;
+
 }
