@@ -4,9 +4,10 @@
 	box-sizing: border-box;
 }
 .header{
+	display:flex;
 	height: 350px;
 	width: auto;
-
+	align-self:center;
 	border: 2px;
 	
 	background-color: #862633;
