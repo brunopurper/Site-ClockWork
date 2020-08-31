@@ -31,10 +31,11 @@ header ul {
 }
 
 header li {
-    margin-right: 2rem;
+    margin-right: 2rem; /* Espaçamento entre as listas (MENU) */
 }
-    header li:last-child {
-        margin-right: 0;
+    header li:last-child { /* Espaçamento final a direita */
+        margin-right: 0; 
+
     }
 
 header a {
