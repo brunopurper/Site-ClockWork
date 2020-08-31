@@ -1,0 +1,52 @@
+div {
+    background: red;
+}
+
+figure {
+    background: grey;
+}
+
+header {
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    height: 7rem;
+}
+
+header section {
+    background: lawngreen;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+header nav {
+    height: 100%;
+}
+
+header ul {
+    display: flex;
+    height: 100%;
+}
+
+header li {
+    margin-right: 2rem;
+}
+    header li:last-child {
+        margin-right: 0;
+    }
+
+header a {
+    background: green;
+    display: block;
+    height: 100%;
+    line-height: 7rem;
+    text-decoration: none;
+}
+
+#presentation {
+    position: relative;
+    z-index: 0; /* z-index relacionado com o z-index da header */
+    height: 100vh;
+}
