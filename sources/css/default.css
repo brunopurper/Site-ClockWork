@@ -1,5 +1,16 @@
+/* tamanho da section e centralização*/
+
+body {
+    background: #141414;
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+}
+
 section {
     margin: auto;
     max-width: 70rem;
+    height: 50rem;
 }
+
+
 
